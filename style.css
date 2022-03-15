@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.top{
+    width: 1440px;
+    height: 1080px;
+    background: no-repeat  url("images/top-bg-03.png");
+    background-size: contain;
+    position: absolute;
+}
+
+.top-material p{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 640px;
+    font-family: 'Zen Maru Gothic', sans-serif;
+    color: #350D00;
+}
