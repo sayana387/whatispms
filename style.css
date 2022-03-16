@@ -7,15 +7,90 @@
 .top{
     width: 1440px;
     height: 1080px;
-    background: no-repeat  url("images/top-bg-03.png");
-    background-size: contain;
-    position: absolute;
+    background: no-repeat  url("images/top-back1-04.png");
+    background-size: cover;
+    background-color:#FFFDED;
+}
+
+.top-material{
+   padding: 120px;
+}
+
+.top-material-img1{
+    margin-left: 240px;
+   
+    
+
+}
+
+.top-material-img1 img{
+    width: 80%;
+    height: 50%;
+  
 }
 
 .top-material p{
     text-align: center;
     font-size: 30px;
-    margin-top: 640px;
     font-family: 'Zen Maru Gothic', sans-serif;
     color: #350D00;
 }
+
+.top-material-img2{ 
+    margin-top: 60px;
+    margin-left: 10px;
+
+}
+
+.top-material-img2 img{
+    width: 100%;
+
+}
+
+.poem{
+    display: flex;
+    justify-content: center;
+    width: 1440px;
+    height: 1080px;
+    background-image:  url("images/message-back.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color:#FFFDED;
+   
+   
+
+}
+
+.poem-img1{
+   
+   
+}
+
+.poem-img1 img{
+  width:200px;
+}
+
+.poem-sentence{
+   
+
+}
+
+.poem-sentence p{
+    width: 800px;
+    font-size: 32px;
+    text-align: center;
+    font-family: 'Zen Maru Gothic', sans-serif;
+    color: #350D00;
+    line-height: 3em;
+}
+
+.poem-img2{
+    
+}
+
+.poem-img2 img{
+    width:200px;
+    margin-top: 600px;
+  }
+  
+
