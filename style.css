@@ -14,17 +14,21 @@
 
 .top-material{
    padding: 120px;
+   display:flex;
+   flex-flow: column;
+   justify-content: center;
 }
 
 .top-material-img1{
-    margin-left: 240px;
-   
+    display:flex;
+    justify-content: center;
+    padding-top: 200px;
     
 
 }
 
 .top-material-img1 img{
-    width: 80%;
+    width: 75%;
     height: 50%;
   
 }
@@ -34,16 +38,19 @@
     font-size: 30px;
     font-family: 'Zen Maru Gothic', sans-serif;
     color: #350D00;
+    padding-top: 10px;
 }
 
 .top-material-img2{ 
-    margin-top: 60px;
-    margin-left: 10px;
+  
+    display:flex;
+    justify-content: center;
+  
 
 }
 
 .top-material-img2 img{
-    width: 100%;
+    width: 90%;
 
 }
 
@@ -54,43 +61,317 @@
     height: 1080px;
     background-image:  url("images/message-back.png");
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     background-color:#FFFDED;
    
    
 
 }
 
-.poem-img1{
-   
-   
-}
 
 .poem-img1 img{
   width:200px;
 }
 
-.poem-sentence{
-   
-
-}
 
 .poem-sentence p{
     width: 800px;
-    font-size: 32px;
+    font-size: 24px;
     text-align: center;
     font-family: 'Zen Maru Gothic', sans-serif;
     color: #350D00;
     line-height: 3em;
 }
 
-.poem-img2{
-    
-}
 
 .poem-img2 img{
     width:200px;
     margin-top: 600px;
   }
+
+.about{
+ background-color:#FFFDED;
+ padding-bottom: 80px;
+ 
+
+}
+.about h1{
+   text-align: left;
+   font-family: 'Modak',cursive;
+   font-size: 140px;
+   color: #F1883D;
+   opacity: 40%;
+   padding-top: 0px;
+   
+}
+
+.about h3{
+    text-align: center;
+    font-family: 'Zen Maru Gothic', sans-serif;
+    color: #F1883D;
+    font-size: 24px;
+    
+
+}
+
+.about h2{
+
+    text-align: center;
+    font-family: 'Zen Maru Gothic', sans-serif;
+    color: #350D00;
+    font-size: 40px;
+    padding-top: 20px;
+}
+
+.about p{
+  
+    font-size: 16px;
+    text-align: center;
+    font-family: 'Zen Maru Gothic', sans-serif;
+    color: #350D00;
+    line-height: 2em;
+    padding-top: 20px;
+}
+
+.about-bottom{
+    padding: 40px 320px;
+    
+}
+
+.about-bottom h3{
+    text-align: left;
+    font-family: 'Zen Maru Gothic', sans-serif;
+    color: #350D00;
+    font-size: 30px;
+    
+}
+
+.about-bottom p{
+    text-align: left;
+    float: left;
+    width:600px;
+ 
+}
+
+.about-bottom img{
+    width:15%;
+    padding-left: 40px;
+  
+}
+
+.about-bottom-right{
+    padding-top: 80px;
+}
+
+.how{
+    background-color:#FFFDED;
+    padding-bottom: 100px;
+}
+
+.how h1{
+    text-align: left;
+    font-family: 'Modak', cursive;
+    font-size: 160px;
+    color: #F1883D;
+    opacity: 40%;
+    padding-top: 0px;
+   
+    
+ }
+ 
+ .how h3{
+     text-align: center;
+     font-family: 'Zen Maru Gothic', sans-serif;
+     color: #F1883D;
+     font-size: 24px;
+     
+ 
+ }
+ 
+ .how h2{
+ 
+     text-align: center;
+     font-family: 'Zen Maru Gothic', sans-serif;
+     color: #350D00;
+     font-size: 40px;
+     padding-top: 20px;
+ }
+ 
+ .how p{
+   
+     font-size: 16px;
+     text-align: center;
+     font-family: 'Zen Maru Gothic', sans-serif;
+     color: #350D00;
+     line-height: 2em;
+     padding: 20px 0px;
+
+ }
+
   
 
+.how-card{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 60px;
+
+}
+
+.how-card img{
+    width: 20%;
+}
+
+.solution{
+    background-color:#FFFDED;
+    position: relative;
+    background-image: url("images/solution-background.png");
+    background-size:cover;
+    background-position:0vw 60vh;
+    background-repeat: no-repeat;
+    width: 1440px;
+    height: 1440px;
+   
+  
+}
+
+.solution h1{
+    text-align: left;
+    font-family: 'Modak', cursive;
+    font-size: 140px;
+    color: #F1883D;
+    opacity: 40%;
+}
+
+ .solution h3{
+     text-align: center;
+     font-family: 'Zen Maru Gothic', sans-serif;
+     color: #F1883D;
+     font-size: 24px;
+     
+ 
+ }
+ 
+ .solution h2{
+ 
+     text-align: center;
+     font-family: 'Zen Maru Gothic', sans-serif;
+     color: #350D00;
+     font-size: 40px;
+     padding-top: 20px;
+ }
+ 
+ .solution p{
+   
+     font-size: 16px;
+     text-align: center;
+     font-family: 'Zen Maru Gothic', sans-serif;
+     color: #350D00;
+     line-height: 2em;
+     padding: 20px 0px;
+     margin-bottom: 60px;
+
+ }
+
+ .solution-card{
+    margin-top:80px;
+    
+
+ }
+
+ .solution-card .p1-1{
+     position: absolute;
+     top: 360px;
+   }
+
+   .solution-card .p1-2{
+    position: absolute;
+    top: 700px;
+  }
+  .solution-card .p1-3{
+    position: absolute;
+    top: 1000px;
+  }
+
+
+
+
+
+
+ .solution-card .p1 p{
+
+    font-family:  'Zen Maru Gothic', sans-serif;
+    font-weight: bold;
+    color: #350D00;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color:#FFFDED;
+    font-size: 50px;
+    text-align: left;
+    padding: 100px;
+    
+ }
+
+ 
+ .solution-card .p2 p{
+
+   
+    background-color: #EF9758;
+    width: 900px;
+    padding: 50px;
+    line-height:40px;
+    display: block;
+    background-repeat: 16px;
+    border-top-right-radius:0px;
+    border-bottom-left-radius:40px;
+    text-decoration: none;
+    color: #FFFDED;
+    margin: 120px auto;
+    text-align: left;
+    margin-bottom: 100px;
+
+     
+ }
+
+ .last{
+     padding: 60px;
+     display: flex;
+     flex-flow: column;
+     justify-content: center;
+     background-color: #FFFDED;
+ }
+ .last h2{
+        text-align: center;
+        font-family: 'Zen Maru Gothic', sans-serif;
+        color: #350D00;
+        font-size: 40px;
+        padding: 20px;
+    }
+    
+ .last p{
+      
+        font-size: 16px;
+        text-align: center;
+        font-family: 'Zen Maru Gothic', sans-serif;
+        color: #350D00;
+        line-height: 2em;
+        padding: 40px 270px 0px;
+        width: 800px;
+        line-height: 4em;
+        margin-bottom: 80px;
+       
+   
+    }
+
+ footer{
+     background-color: #FFFDED;
+     padding-bottom: 40px;
+ }
+
+ footer p{
+     font-size: 12px;
+     text-align: center;
+     font-family: 'Zen Maru Gothic', sans-serif;
+     color: #350D00;
+ }
+
+  
