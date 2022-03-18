@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,11 +7,12 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Modak&display=swap" rel="stylesheet">
-    
+
     <title>Document</title>
 </head>
 <body>
     <section class="top">
+        
         <div class="top-material">
             <div class="top-material-img1">
               <img src="images/whatispms.logo.png" alt="">
@@ -55,7 +56,8 @@
     </section>
 
     <section class="about">
-        <h4>What is PMS ??</h4>
+      <div class="fuwat"> 
+        <h1>What is PMS ??</h1>
         <h3>#ABOUT</h3>
         <h2>pmsってなーに？？</h2>
         <p>Premenstrual Syndromeの略称で、月経前症候群と呼ばれるものです。<br>
@@ -79,12 +81,14 @@
             </div>
  
         </div>
+     </div>
 
 
-        
+ 
     </section>
     
     <section class="how">
+     <div class="fuwat"> 
 
         <h1>how ??</h1>
         <h3>#how</h3>
@@ -96,13 +100,98 @@
 
         <div class="how-card">
 
-            <img src="images/case1.png" alt="">
-            <img src="images/case2.png" alt="">
-            <img src="images/case3.png" alt="">
-            <img src="images/case4.png" alt="">
+            <div class="modal">
+                <div class="modal-contents">
+          
+                  <div class="case-name">
+                      <p>case1</p>
+                  </div>
+          
+                  <a href="#modal_01" class="modal-link">
+                      <div class="btn">
+                          <p>大学1年生の<br>女性の<br>おはなし</p>
+          
+                          <div class="kuwasiku">
+                              <p>くわしく見る</p>
+                          </div>
+          
+                      </div>
+          
+                  
+                  </a>
+                
+                  <div class="remodal" data-remodal-id="modal_01">
+                
+                    <div><img src="images/modal.case1.png" alt=""></div>
+                    <button data-remodal-action="cancel" class="remodal-cancel">閉じる</button>
+                  </div>
+                </div>
+                
+                <div class="modal-contents"> 
+          
+                  <div class="case-name">
+                      <p>case2</p>
+                  </div>
+          
+                  <a href="#modal_02" class="modal-link">
+                      <div class="btn">
+                          <p>高校3年生の<br>女性の<br>おはなし</p>
+                          <div class="kuwasiku">
+                              <p>くわしく見る</p>
+                          </div>
+                      </div>
+                      
+                  </a>
+                  <div class="remodal" data-remodal-id="modal_02">
+                    <div><img src="images/modal.case2.png" alt=""></div>
+                    <button data-remodal-action="cancel" class="remodal-cancel">閉じる</button>
+                  </div>
+                </div>
+                
+                <div class="modal-contents">
+                  <div class="case-name">
+                      <p>case3</p>
+                  </div>
+          
+                  <a href="#modal_03" class="modal-link">
+                      <div class="btn">
+                          <p>大学2年生の<br>女性の<br>おはなし</p>
+                          <div class="kuwasiku">
+                              <p>くわしく見る</p>
+                          </div>
+                      </div>
+                  </a>
+                  <div class="remodal" data-remodal-id="modal_03">
+                    <div><img src="images/modal.case3.png" alt=""></div>
+                    <button data-remodal-action="cancel" class="remodal-cancel">閉じる</button>
+                  </div>
+                </div>
+                
+                <div class="modal-contents">
+          
+                  <div class="case-name">
+                      <p>case4</p>
+                  </div>
+          
+                  <a href="#modal_04" class="modal-link">
+                      <div class="btn">
+                          <p>大学1年生の<br>女性の<br>おはなし</p>
+                          <div class="kuwasiku">
+                              <p>くわしく見る</p>
+                          </div>
+                      </div>
+                  </a>
+                  <div class="remodal" data-remodal-id="modal_04">
+                    <div><img src="images/modal.case4.png" alt=""></div>
+                    <button data-remodal-action="cancel" class="remodal-cancel">閉じる</button>
+                  </div>
+                </div>
+            </div>
 
+            
 
         </div>
+    　　</div>
     </section>
 
     <section class="solution">
@@ -149,12 +238,21 @@
             ※この記事は専門家の知識に基づくものではありません。
         </p>
 
+        <footer>
+            <p>@2022_taki_what-is-pms</p>
+      　 </footer>
+
 
     </section>
 
-    <footer>
-        <p>@2022_taki_what-is-pms</p>
-  　 </footer>
+    
+
+
+    <script src="script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/remodal/1.0.5/remodal.min.js"></script> 
+
 
 
 
