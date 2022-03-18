@@ -225,7 +225,7 @@
 .solution{
     background-color:#FFFDED;
     position: relative;
-    background-image: url("images/solution-background.png");
+    background-image: url("images/solution-bgs.png");
     background-size:cover;
     background-position:0vw 60vh;
     background-repeat: no-repeat;
