@@ -555,6 +555,20 @@ left: 150px;
    }
 
    @media all and (max-width:480px){
+
+
+    header ul{
+       display: none;
+     }
+    
+      header ul a{
+        display: none;
+       
+      }
+    
+      header ul a:hover{
+        display: none;
+      }
     .top{
         width: 480px;
         height: 500px;
