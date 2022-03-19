@@ -332,7 +332,7 @@ left: 150px;
 
   .remodal {
     position: relative;
-    padding: 25px;
+    padding: 250px;
     background-color: #ffffff;
 
   }
@@ -345,7 +345,7 @@ left: 150px;
     color: #fff;
     background: #350D00;
     width: 20%;
-    margin: 25px 550px;
+    margin: 25px 350px;
     padding: 12px;
     font-family:'Zen Maru Gothic', sans-serif;
     border-radius: 6px;
