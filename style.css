@@ -75,24 +75,49 @@
 }
 
 
-.poem-sentence p{
-    width: 800px;
-    font-size: 24px;
+  .TextTyping {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 1.5rem;
+    letter-spacing: .5em;
+    word-break : break-all;
+    font-size: 20px;
     text-align: center;
     font-family: 'Zen Maru Gothic', sans-serif;
     color: #350D00;
     line-height: 3em;
-}
+    padding-top: 20px;
+
+  }
+  
+  /*========= タイピング ===============*/
+  
+  .TextTyping span {
+    display: none;
+  }
+  
+  /*文字列後ろの線の設定*/
+  .TextTyping::after {
+    content: "|";
+    animation: typinganime .8s ease infinite;
+  }
+  
+  @keyframes typinganime{
+    from{opacity:0}
+    to{opacity:1}
+  }
 
 
 .poem-img2 img{
     width:200px;
-    margin-top: 600px;
+    margin-top: 550px;
   }
 
 .about{
  background-color:#FFFDED;
  padding-bottom: 40px;
+ background-image: url(images/about-whole-bg-07.png);
+ background-size: cover;
  
 
 }
@@ -101,7 +126,7 @@
    font-family: 'Modak',cursive;
    font-size: 140px;
    color: #F1883D;
-   opacity: 40%;
+   opacity: 70%;
    padding-top: 0px;
    font-weight: normal;
    
@@ -175,7 +200,7 @@
     font-family: 'Modak', cursive;
     font-size: 160px;
     color: #F1883D;
-    opacity: 40%;
+    opacity: 70%;
     padding-top: 0px;
     font-weight: normal;
    
@@ -228,19 +253,20 @@
  
 }
 
-.case-name{
-    font-size: 42px;
+.case-name p{
+    font-size:54px;
     transform: rotateZ(-15deg);
     position: absolute;
-    top: -45px;
+    top: -75px;
     left: -30px;
     color: #EE731A;
+    font-family: 'Caveat', cursive;
 
 }
 
 .modal-link{
     text-decoration: none;
-   
+
 }
 .btn {
    
@@ -261,6 +287,9 @@
 
   .btn p{
       padding-top: 60px;
+      font-size: 18px;
+      letter-spacing: 0.2em;
+     
       
   }
 
@@ -270,12 +299,19 @@
      
   }
 
+  .kuwasiku p:hover{
+    color: #ffffff;
+  }
+
 
   .btn:hover{
     background: #F1883D;
-    color: #ffffff;
+    
     border: 2px solid #ffffff;
   }
+
+  
+
   .remodal {
     position: relative;
     padding: 25px;
@@ -320,7 +356,7 @@
     font-family: 'Modak', cursive;
     font-size: 140px;
     color: #F1883D;
-    opacity: 40%;
+    opacity: 70%;
     font-weight: normal;
 }
 
@@ -371,7 +407,7 @@
   }
   .solution-card .p1-3{
     position: absolute;
-    top: 860px;
+    top: 840px;
   }
 
 
