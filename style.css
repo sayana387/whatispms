@@ -808,7 +808,8 @@ left: 150px;
  }  
 
  .last{
-  
+  width: 480px;
+  padding: 0px;
  }
  
  .last h2{
@@ -825,9 +826,9 @@ left: 150px;
     text-align: left;
     line-height: 0.3em;
     padding: 20px ;
-    width: 320px;
     line-height: 4em;
     margin-bottom: 80px;
+    width:440px
     
 
 }
