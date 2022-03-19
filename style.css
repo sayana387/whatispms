@@ -64,18 +64,24 @@
     background-size: 80%;
     background-color:#FFFDED;
     background-position: 200px 0px;
+    position: relative;
    
    
 
 }
 
+.poem-img1 {
+position: absolute;
+top: 30px;
+left: 150px;
+}
 
 .poem-img1 img{
   width:200px;
 }
 
 
-  .TextTyping {
+.TextTyping {
     text-align: center;
     margin: 20px 0;
     font-size: 1.5rem;
@@ -107,10 +113,17 @@
     to{opacity:1}
   }
 
+.poem-img2{
+    position: absolute;
+    bottom: 30px;
+    right:150px
+
+}
+
 
 .poem-img2 img{
     width:200px;
-    margin-top: 550px;
+   
   }
 
 .about{
@@ -118,6 +131,7 @@
  padding-bottom: 40px;
  background-image: url(images/about-whole-bg-07.png);
  background-size: cover;
+ background-repeat: no-repeat;
  
 
 }
@@ -141,6 +155,7 @@
 
 }
 
+
 .about h2{
 
     text-align: center;
@@ -163,6 +178,10 @@
 .about-bottom{
     padding: 40px 320px;
     
+}
+
+.about-bottom hr{
+    display: none;
 }
 
 .about-bottom h3{
@@ -283,13 +302,12 @@
     text-align: center;
     font-size: 20px;
     line-height: 2em;
-  }
+}
 
   .btn p{
       padding-top: 60px;
       font-size: 18px;
       letter-spacing: 0.2em;
-     
       
   }
 
@@ -347,7 +365,6 @@
     width: 1440px;
     height: 1440px;
    
-   
   
 }
 
@@ -396,6 +413,19 @@
 
  }
 
+ .solution-card .p1 p{
+
+    font-family:  'Zen Maru Gothic', sans-serif;
+    font-weight: bold;
+    color: #350D00;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color:#FFFDED;
+    font-size: 50px;
+    text-align: left;
+    padding: 260px;
+    
+ }
+
  .solution-card .p1-1{
      position: absolute;
      top: 200px;
@@ -410,23 +440,7 @@
     top: 840px;
   }
 
-
-
-
-
-
- .solution-card .p1 p{
-
-    font-family:  'Zen Maru Gothic', sans-serif;
-    font-weight: bold;
-    color: #350D00;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color:#FFFDED;
-    font-size: 50px;
-    text-align: left;
-    padding: 260px;
-    
- }
+ 
 
  
  .solution-card .p2 p{
@@ -513,3 +527,318 @@
     0% { opacity: 0; -webkit-transform: translateY(-20px); -ms-transform: translateY(-20px); transform: translateY(-20px); }
     100% { opacity: 1; -webkit-transform: translateY(0); -ms-transform: translateY(0); transform: translateY(0); }
    }
+
+   @media all and (max-width:480px){
+    .top{
+        width: 480px;
+        height: 500px;
+        background-size: cover;
+
+    }
+    .top-material-img1{
+       
+        padding-top: 100px;
+        
+    
+    }
+
+    .top-material-img1 img{
+        width: 100%;
+        height: 100%;
+      
+    }
+
+    .top-material p{
+      
+        font-size: 16px;
+   
+    }
+    .top-material-img2 img{
+        width: 100%;
+    
+    }
+
+    .poem{
+        width: 480px;
+        height: 400px;
+        background-size: 80%;
+        background-color:#FFFDED;
+        background-position: 70px 100px; 
+    
+    }
+
+    .poem-img1 {
+        position: absolute;
+        top: 0px;
+        left: 60px;
+        }
+
+    .poem-img1 img{
+        width:80px;
+      }
+    
+    .TextTyping{
+        margin: 5px 0;
+        font-size: 10px;
+        line-height: 2em;
+        padding-top: 60px;
+     
+    }
+
+    .poem-img2{
+        position: absolute;
+        bottom: 80px;
+        right:60px
+    
+    }
+    
+    
+    .poem-img2 img{
+        width:80px;
+
+   }
+
+   .about{
+    width: 480px;
+    padding-bottom: 40px;
+    background-size: contain;
+   
+   }
+
+   .about h1{
+    font-size: 50px;
+   }
+
+   .about h3{
+    font-size: 16px;
+    }
+
+    .about h2{
+
+        font-size: 20px;
+        padding-top: 20px;
+    }
+
+    .about p{
+  
+        font-size: 10px;
+        padding-top: 20px;
+        width: 320px;
+        margin: 0 auto;
+    }
+
+    .about-bottom{
+        padding: 40px 80px;
+        
+    }
+
+    .about-bottom p{
+        text-align: left;
+        float: left;
+        width:200px;
+     
+    }
+    .about-bottom img{
+        width:20%;
+        padding-left: 40px;
+        padding-top: 50px;
+      
+    }
+
+    .how{
+        width: 480px;
+
+    }
+
+    .how h1{
+    font-size: 60px;
+    text-align: left;
+    padding: 0px 30px;
+    
+    }
+    .how h2{
+    font-size: 20px;
+    text-align: left;
+    padding: 10px 30px;
+    }
+
+    .how h3{
+     text-align: left;
+     padding: 10px 30px;
+    }
+
+    .how p{
+   
+        font-size: 12px;
+       
+        font-family: 'Zen Maru Gothic', sans-serif;
+        color: #350D00;
+        line-height: 2em;
+        padding: 20px 0px;
+        text-align: left;
+        padding: 10px 30px;
+   
+    }
+
+    .case-name p{
+        font-size:30px;
+        transform: rotateZ(-15deg);
+        position: absolute;
+        top: -40px;
+        left: -20px;
+        color: #EE731A;
+        font-family: 'Caveat', cursive;
+    
+    }
+
+    .btn {
+   
+        display: block;
+        align-items: center;
+        background: FFFDED;
+        border: 2px solid #350D00;
+        color: #350D00;
+        width: 180px;
+        height: 180px;
+        border-radius: 16px;
+        box-sizing: border-box;
+        transition-duration: 0.3s;
+        text-align: center;
+        line-height: 2em;
+        margin: 5px;
+    }
+
+    .btn p{
+        padding-top: 40px;
+        font-size: 14px;
+        letter-spacing: 0.2em;
+        text-align: center;
+        
+    }
+
+    .kuwasiku p{
+        font-size: 3px;
+        padding-top: 5px;
+       
+    }
+
+    .solution{
+        background-position:0vw 60vh;
+        width: 480px;
+        height: 1000px;
+        background-size:200%;
+        background-position: 0px 290px;
+       
+      
+    }
+
+    .solution h1{
+        font-size: 60px;
+        text-align: left;
+        
+    }
+
+    .solution h3{
+    text-align: left;
+    padding: 0px 30px;
+    }
+
+    .solution h2{
+        font-size: 30px;
+        text-align: left;
+        padding: 10px 30px;
+    }
+
+    .solution p{
+   
+        font-size: 14px;
+        text-align: left;
+        padding-top: 0px;
+        padding-bottom: 60px;
+        padding-left:30px;
+        padding-right:30px;
+
+        margin-bottom: 60px;
+   
+    }
+    .solution-card{
+        margin-top:30px;
+     
+    }
+
+    .solution-card .p1 p{
+
+   
+    font-size: 24px;
+    text-align: left;
+    padding: 10px;
+    
+   }
+
+   .solution-card .p1-1{
+    position: absolute;
+    top: 300px;
+  }
+
+  .solution-card .p1-2{
+   position: absolute;
+   top: 480px;
+ }
+ .solution-card .p1-3{
+   position: absolute;
+   top: 650px;
+ }
+
+ .solution-card .p2 p{
+
+    font-size: 10px;
+    background-color: #EF9758;
+    width: 360px;
+    padding: 20px;
+    line-height:20px;
+    display: block;
+    background-repeat: no-repeat;
+    border-top-right-radius:0px;
+    border-bottom-left-radius:20px;
+    text-decoration: none;
+    color: #FFFDED;
+    margin: 60px auto;
+    text-align: left;
+ 
+ }  .last h2{
+    text-align: left;
+    font-family: 'Zen Maru Gothic', sans-serif;
+    color: #350D00;
+    font-size: 30px;
+    padding: 20px;
+}
+
+.last p{
+      
+    font-size: 12px;
+    text-align: left;
+    line-height: 0.3em;
+    padding: 20px ;
+    width: 360px;
+    line-height: 4em;
+    margin-bottom: 80px;
+    
+
+}
+footer p{
+    font-size: 12px;
+    text-align: center;
+    font-family: 'Zen Maru Gothic', sans-serif;
+    color: #350D00;
+}
+
+
+
+   
+
+   
+    
+  
+  
+
+}

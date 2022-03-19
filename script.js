@@ -36,6 +36,8 @@ $(document).ready(function(){
 	  }
 	});
   }
+
+  
   // 画面をスクロールをしたら動かしたい場合の記述
   $(window).scroll(function () {
 	TextTypingAnime();/* アニメーション用の関数を呼ぶ*/
@@ -49,10 +51,16 @@ $(document).ready(function(){
 	  var text = $(this).html();
 	  var textbox = "";
 	  text.split('').forEach(function (t) {
-		if (t !== " ") {
-		  textbox += '<span>' + t + '</span>';
-		} else {
+		if (t =="¥"){
+			textbox += '<span>' + '<br>' + '</span>';
+		} 
+		else if (t !== " ") {
+			textbox += '<span>' + t + '</span>';
+		
+		}
+		else {
 		  textbox += t;
+		
 		}
 	  });
 	  $(this).html(textbox);
